@@ -33,11 +33,7 @@ const projectList = [
   {
     title: "Error Code Support in GCC Rust Frontend",
     description:
-      "Worked on the GNU-GCC Rust (gccrs) to enhance the user experience of gccrs by enabling it to emit error codes similar to rustc. This will help bridge the gap between the two test suites and eventually enable the rustc testsuite to run on gccrs. The project involves implementing necessary changes in gccrs to emit rustc error codes throughout its frontend code. Additionally, it entails expanding the code responsible for error emission to incorporate greater functionality. Furthermore, a comprehensive comparison between the rustc and gccrs test suites will be conducted to improve stability. The ultimate outcome will be an improved user experience for gccrsusers, with an increased number of error emissions in various contexts and more informative hints on code resolution. By bringing gccrs closer to parity with rustc, this project aims to enhance its accessibility for users and developers alike.\
-
-      - https://summerofcode.withgoogle.com/programs/2023/projects/PZbjvfZl\
-      - https://mahadmuhammad.github.io/gsoc/23/r/final-report/",
-    url: "https://summerofcode.withgoogle.com/programs/2023/projects/PZbjvfZl",
+      "Worked on the GNU-GCC Rust (gccrs) to enhance the user experience of gccrs by enabling it to emit error codes similar to rustc. This will help bridge the gap between the two test suites and eventually enable the rustc testsuite to run on gccrs. The project involves implementing necessary changes in gccrs to emit rustc error codes throughout its frontend code. Additionally, it entails expanding the code responsible for error emission to incorporate greater functionality. Furthermore, a comprehensive comparison between the rustc and gccrs test suites will be conducted to improve stability. The ultimate outcome will be an improved user experience for gccrsusers, with an increased number of error emissions in various contexts and more informative hints on code resolution. By bringing gccrs closer to parity with rustc, this project aims to enhance its accessibility for users and developers alike.",
   }
 ];
 
