@@ -31,29 +31,14 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Error Code Support in GCC Rust Frontend",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
-  },
-  {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
-  },
-  {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  },
+      "Worked on the GNU-GCC Rust (gccrs) to enhance the user experience of gccrs by enabling it to emit error codes similar to rustc. This will help bridge the gap between the two test suites and eventually enable the rustc testsuite to run on gccrs. The project involves implementing necessary changes in gccrs to emit rustc error codes throughout its frontend code. Additionally, it entails expanding the code responsible for error emission to incorporate greater functionality. Furthermore, a comprehensive comparison between the rustc and gccrs test suites will be conducted to improve stability. The ultimate outcome will be an improved user experience for gccrsusers, with an increased number of error emissions in various contexts and more informative hints on code resolution. By bringing gccrs closer to parity with rustc, this project aims to enhance its accessibility for users and developers alike.\
+
+      - https://summerofcode.withgoogle.com/programs/2023/projects/PZbjvfZl\
+      - https://mahadmuhammad.github.io/gsoc/23/r/final-report/",
+    url: "https://summerofcode.withgoogle.com/programs/2023/projects/PZbjvfZl",
+  }
 ];
 
 const Portfolio = () => {
