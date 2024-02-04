@@ -34,7 +34,17 @@ const projectList = [
     title: "Error Code Support in GCC Rust Frontend",
     description:
       "Worked on the GNU-GCC Rust (gccrs) to enhance the user experience of gccrs by enabling it to emit error codes similar to rustc. This will help bridge the gap between the two test suites and eventually enable the rustc testsuite to run on gccrs. The project involves implementing necessary changes in gccrs to emit rustc error codes throughout its frontend code. Additionally, it entails expanding the code responsible for error emission to incorporate greater functionality. Furthermore, a comprehensive comparison between the rustc and gccrs test suites will be conducted to improve stability. The ultimate outcome will be an improved user experience for gccrsusers, with an increased number of error emissions in various contexts and more informative hints on code resolution. By bringing gccrs closer to parity with rustc, this project aims to enhance its accessibility for users and developers alike.",
-  }
+  },
+  {
+    title: "CORP (Corporate Management System) using javafx",
+    description: "This project aims to improve the efficiency and productivity of employee management in a corporate environment. It allows the user to store and update the employee's personal information, skills, and performance. Moreover, it integrates a project management system that enables the user to assign tasks, monitor progress, and meet deadlines with ease. This project is relevant and fills the market gap as industry-leading software solutions like ClickUp and Jira actively employed in this field validate the significance and usefulness of this project.",
+    url: "https://github.com/MahadMuhammad/corp",
+  },
+  {
+    title: "Learn Assembly The Hard Way",
+    description: "A single & unified source of all source codes & helping material in learning the Intel 8088 assembly language using DOSBOX as an emulator",
+    url: "https://github.com/MahadMuhammad/Learn-Assembly-The-Hard-Way",
+  },
 ];
 
 const Portfolio = () => {
