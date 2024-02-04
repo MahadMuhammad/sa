@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Muhammad Mahad",
-  title: "Open Source Developer",
+  title: "Experimenting new things and Open Source Advocate & Founder @ Techonix",
   email: "mahadtxt@gmail.com",
   gitHub: "MahadMuhammad",
   instagram: "",
